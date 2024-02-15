@@ -223,7 +223,7 @@ Description : DOM Elements.
 				// Task 4: Create a new <p> element and append it to the 'About Us' section
 				const aboutUsSection = document.querySelector('section:nth-of-type(1)');
 				const newParagraph = document.createElement('p');
-				newParagraph.textContent = 'This new pagraph is appended to the About Us section';
+				newParagraph.textContent = 'This is a new paragraph';
 				newParagraph.style.color = 'red';
 				aboutUsSection.appendChild(newParagraph);
 				
@@ -256,7 +256,7 @@ Description : DOM Elements.
 				// Task 8: Change the submit button text upon clicking and make it disabled
 				const submitButton = document.querySelector('input[type="button"]');
 				submitButton.addEventListener('click', function(){
-					submitButton.value = 'Processing...'
+					submitButton.value = 'Submitted'
 					submitButton.disabled = true;
 				});
 
